@@ -25,6 +25,7 @@ int main() {
 	}
 
 	do {
+		srand(time(0)); // helps the computer not generate the same number
 		int randomNum = rand() % 10 + 1; // Generating a random number (1-10 inclusively)
 		answer = "yes"; // answer becomes yes
 		replay = true; // replay becomes true
